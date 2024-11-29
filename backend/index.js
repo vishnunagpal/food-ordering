@@ -6,11 +6,11 @@ const app = express();
 const port = 3001;
 
 const pool = new Pool({
-  user: 'vishnu',
-  host: 'localhost',
+  user: 'avnadmin',
+  host: 'pg-1c4fe811-vishnunagpal1998-6265.e.aivencloud.com',
   database: 'food-ordering-app',
-  password: 'password',
-  port: 5432,
+  password: 'AVNS_MJpZYXJ52P_jkDc6IP5',
+  port: 12328,
 });
 
 app.use(cors());
